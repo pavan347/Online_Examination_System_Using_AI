@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Online Examination System Using AI is a modern solution for conducting exams online with the help of artificial intelligence. This system ensures a secure and efficient way to manage and monitor exams. AI is used to generate the questions and enhance security.
+The Online Examination System Using AI is a modern solution for conducting exams online with the help of artificial intelligence. AI in this project is used to generate the questions and enhance security. It contains three roles Admin, Teacher and Student with different permissions. The system is designed to be user-friendly and secure, with a focus on providing a seamless experience for all users.
 
 ## Features
 
@@ -13,82 +13,6 @@ The Online Examination System Using AI is a modern solution for conducting exams
 - AI-generated questions and answers for the topic and content given
 - Automated grading system
 - Detailed analytics and reporting
-
-## Installation and Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/pavan347/Online-Examination-System-Using-AI.git
-   ```
-2. Navigate to the project directory:
-
-    ```bash
-    cd Online-Examination-System-Using-AI
-    ```
-
-3. Create a virtual environment:
-
-    ```bash
-    python -m venv env
-    ```
-
-4. Activate the virtual environment:
-
-  - On Windows:
-    ```bash
-    .\env\Scripts\activate
-    ```
-  - On macOS and Linux:
-    ```bash
-    source venv/bin/activate
-    ```
-
-5. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-6. Create a `.env` file in the project directory and add the following environment variables:
-
-   ```env
-   export API_KEY=your_gemini_api_key
-   ```
-
-7. Create a config.yaml file in the project directory and add the following configuration:
-
-    ```yaml
-    cookie:
-    expiry_days: 30
-    key: some_signature_key
-    name: some_cookie_name
-    credentials:
-    usernames:
-      admin:
-        email: admin@gmail.com
-        failed_login_attempts: 0
-        first_name: admin
-        last_name: pavan
-        logged_in: false
-        password: $2b$12$pOXJra5SPJ01tfo2tt/TLu0Mp.ubeHgreGp7spVbWgxBB2Tdp.fsa
-        password_hint: admin
-        roles:
-          - admin
-    pre-authorized:
-    emails:
-      - oesua@gmail.com
-    ```
-
-8. The default admin username and password are:
-
-   - Username: `admin`
-   - Password: `admin`
-
-9. Start the application:
-
-    ```bash
-    streamlit run app.py
-    ```
 
 ## Contribution
 

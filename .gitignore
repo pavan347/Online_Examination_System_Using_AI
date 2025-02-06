@@ -14,6 +14,8 @@ exam_app.db
 config.yaml
 sample_codes.py
 
+SETUP.md
+
 # C extensions
 *.so
 
