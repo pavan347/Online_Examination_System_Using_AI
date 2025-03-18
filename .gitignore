@@ -16,6 +16,13 @@ sample_codes.py
 
 SETUP.md
 
+# project Files
+database
+models
+utils
+app.py
+
+
 # C extensions
 *.so
 
